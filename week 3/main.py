@@ -1,9 +1,10 @@
-print("I wonder what is in my suitcase...")
-suitcase = input()
+def item_from_suitcase (items):
 
-if (suitcase == "toothbrush"):
+    print("I wonder what is in my suitcase...")
+
+if (items == "toothbrush"):
     print ("A toothbrush. Well, got to have clean teeth!")
-elif (suitcase == "spidey suit"):
+elif (items == "spidey suit"):
     print("My spidey suit! i wont be needing this. I am on holiday.")
 else:
     print("An unexspected item! it could be useful")
