@@ -13,3 +13,4 @@ def item_from_suitcase (items):
 
 
 item_from_suitcase ("toothbrush")
+item_from_suitcase ("spidey suit")
